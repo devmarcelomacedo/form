@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+    
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset id="usuario">
+            <legend> Identificação do Usuário </legend>
+
+              <label id="name" for="cNome">Nome:</label>
+              <input type="text" name="tNome" id="cNome" placeholder="nome completo" size="25" maxlength="64"> <br>
+
+              <label for="cSenha">Senha:</label> 
+              <input type="password" name="tSenha" id="cSenha" placeholder="de 8 a 64 caracteres" size="25" maxlength="64"> <br>
+
+            <label for="cMail">E-mail:</label> 
+            <input type="email" name="temail" id="cMail" placeholder="Digite seu e-mail" size="25" maxlength="64"> <br>
+
+            <fieldset id="sexo"><legend>Sexo</legend>
+                 <input type="radio" name="tSexo" id="cMasc"> <label for="cMasc">Masculino</label></input> <br>
+                 <input type="radio" name="tSexo" id="cFem"> <label for="cFem">Feminino</label></input>
+            </fieldset>
+
+              
+                 <p>Data de Nascimento: <input type="date" name="tNasc" id="cNasc"></p>
+                
+            <fieldset id="endereço"><legend>Endereço do Usuário</legend>
+                <p>Logradouro: <input type="text" name="tRua" id="cRua" size="25" maxlength="64" placeholder="Rua, Av, Trav..."> </p>
+                <p>
+                    <label for="cNum">Número:</label>
+                    <input type="number" name="tNum" id="cNum" min="0" max="9999">
+                </p>
+
+                  <p>
+                      <label for="cEst">Estado:</label>
+
+                     <select name="tEst" id="cEst">
+                        <optgroup label="Região Nordeste">
+                            <option value="SE"> Aracaju</option>
+                            <option value="AL"> Maceió</option>
+                            <option value="BA"> Salvador</option>
+                            <option value="PE"> Recife</option>
+                            <option value="PB"> João Pessoa</option>
+                            <option value="RN"> Natal</option>
+                            <option value="CE"> Fortaleza</option>
+                            <option value="PI"> Teresina</option>
+                            <option value="MA"> São Luis</option>
+                        </optgroup>
+                        <optgroup label="Região Sudeste">
+                            <option value="RJ"> Rio de Janeiro</option>
+                            <option value="sP"> São Paulo</option>
+                            <option value="BH">  Minas Gerais</option>
+                        </optgroup>
+                     </select> 
+                    </p>
+                <p><label for="cCid">Cidade:</label>
+                      <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade">
+                      <option value="região"></option>
+                </p>
+            </fieldset>
+64
+            <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
+                <p>Grau de Urgência: <input type="text" name="tGra" id="cGra"> </p>
+                <p>Mensagem: <textarea name="tMen" id="cMen" cols="30" rows="7"></textarea> </p>
+            </fieldset>
+
+            <fieldset id="pedido"><legend>Quero um Google Glass</legend>
+                Gostaria de adquirir um Google Glass quando estiver disponível
+                Cor:
+                Quantidade:
+                Preço Total: R$
+            </fieldset>
+        </fieldset>
+        [BOTÃO ENVIAR]
+    </form>
+</body>
+</html>
