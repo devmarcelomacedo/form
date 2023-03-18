@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
-    <style>
+    
       
     
-    </style>
+    
 </head>
 <body>
     <form action="">
@@ -44,6 +44,16 @@
                       <label for="cEst">Estado:</label>
 
                      <select name="tEst" id="cEst">
+                        <optgroup label="Região Norte">
+                          <option value="AM">Manaus</option>  
+                          <option value="AC">Rio Branco</option>  
+                          <option value="RO">Porto Velho</option>  
+                          <option value="RR">Boa Vista</option>  
+                          <option value="AP">Amapá</option>  
+                          <option value="PA">Belém</option> 
+                          <option value="TO">Palmas</option>   
+                        </optgroup>
+
                         <optgroup label="Região Nordeste">
                             <option value="SE"> Aracaju</option>
                             <option value="AL"> Maceió</option>
@@ -55,10 +65,24 @@
                             <option value="PI"> Teresina</option>
                             <option value="MA"> São Luis</option>
                         </optgroup>
+
+                        <optgroup label="Região Centro-Oeste">
+                            <option value="MT">Cuibá</option>  
+                            <option value="GO">Goiania</option>  
+                            <option value="MS">Campo Grande</option>  
+                        </optgroup>
+
                         <optgroup label="Região Sudeste">
+                            <option value="ES">Vitória</option>  
                             <option value="RJ"> Rio de Janeiro</option>
-                            <option value="sP"> São Paulo</option>
                             <option value="BH">  Minas Gerais</option>
+                            <option value="SP"> São Paulo</option>
+                        </optgroup>
+
+                        <optgroup label="Região Sul">
+                            <option value="PR"> Curitiba</option>
+                            <option value="SC">Florianópolis</option>
+                            <option value="RS">Porto Alegre</option>
                         </optgroup>
                      </select> 
                     </p>
@@ -80,7 +104,7 @@
                 Preço Total: R$
             </fieldset>
         </fieldset>
-        [BOTÃO ENVIAR]
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
