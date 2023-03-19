@@ -1,0 +1,84 @@
+
+
+#usuario {
+    border-radius: 7px;
+    padding: 5px;
+    margin:auto;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+   
+}
+#usuario, h1 {
+   
+   
+
+
+}
+
+#env {
+    border-radius: 50px;
+    cursor: pointer;
+  
+}
+#fil {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+}
+#cNome {
+    border-radius: 7px;
+    padding: 7px; 
+    cursor: pointer;
+}
+#cCid {
+  border-radius: 7px;
+  padding: 7px;
+  cursor: pointer;
+  
+}
+#cSenha {
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+}
+#cMail {
+    
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+}
+#cNasc {
+    border-radius: 7px;
+    padding: 7px;
+    cursor: pointer;
+}
+#cRua {
+    border-radius: 7px;
+    padding: 7px; 
+    cursor: pointer;
+}
+#cNum {
+    border-radius: 7px;
+    padding: 7px;  
+    cursor: pointer;
+}
+#cEst {
+    border-radius: 7px;
+    padding: 7px;  
+    cursor: pointer;
+}
+#cGra {
+    border-radius: 7px;
+    padding: 7px; 
+    cursor: pointer;
+}
+#cMen {
+    border-radius: 7px;
+    cursor: pointer;
+   
+}
+    
