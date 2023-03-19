@@ -22,12 +22,12 @@
   
 }
 #fil {
-    background-color: black;
+  
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 7px;
     margin: auto;
-    cursor: pointer;
+   
 }
 #cNome {
     border-radius: 7px;
